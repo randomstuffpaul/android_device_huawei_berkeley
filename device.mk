@@ -58,6 +58,13 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# IR
+PRODUCT_PACKAGES += \
+    irself
+
+PRODUCT_BOOT_JARS += \
+    irself
+
 # KeyHandler
 PRODUCT_PACKAGES += \
     org.lineageos.keyhandler
