@@ -35,6 +35,10 @@ PRODUCT_COPY_FILES += \
     device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 endif
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.kirin970.rc \
